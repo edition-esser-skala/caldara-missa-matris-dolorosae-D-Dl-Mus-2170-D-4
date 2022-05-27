@@ -1,0 +1,17 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Missa Matris dolorosæ
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, fag, 2 trb, 2 vl, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2170-D-4
+    date:
+    rism: 212006714
+    url: https://digital.slub-dresden.de/id426603672
+    license: public domain
+    principal: true
+imslp: Mass_in_B_minor_'Matris_dolorosae'_(Caldara,_Antonio)
