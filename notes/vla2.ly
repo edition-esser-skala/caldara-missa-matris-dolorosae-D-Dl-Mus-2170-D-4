@@ -98,3 +98,112 @@ KyrieViolaII = {
     dis\breve\fermata \bar "|." %101 finis
   }
 }
+
+GloriaViolaII = {
+  \relative c' {
+    \clef tenor
+    \key h \minor \time 4/4 \tempoGloria
+    r2 d8\fE d cis cis
+    h4 r fis'8 fis e e
+    d4 r cis8 cis cis cis
+    cis cis cis cis h4 r
+    r8 h h h a a e' e %5
+    d d r e r h r h
+    fis' fis fis fis fis fis h, h
+    h h cis cis a a h h
+    g g fis fis fis fis fis' fis
+    g g fis fis fis4 r %10
+    r8 h, cis4 d r
+    e2\p fis4 d
+    e cis h fis8 cis'
+    d4 r r2
+    R1*19 %33
+    r2 d8\fE d d d
+    d4 r h8 h h h %35
+    h4 c8 c c2
+    d8 e fis4. e8 d4
+    e8 h e4 dis8 e e dis
+    e4 r r2
+    R1*26 \noBreak %65
+    R1\fermata \bar "||"
+    \tempoQuiTollis r4 a,\fE g a \noBreak
+    r8 a g a g2
+    a d8\p e fis e
+    d d e d cis cis d cis %70
+    h h g g a a gis gis
+    a2 d,4 d'\f
+    d d r8 d d d
+    c2 h
+    R1*3 %77
+    << { \oneVoice R1 } \\ { s2. \tempoQuiSedes s4 } >>
+    r e\fE d2
+    a4 h h h8 h %80
+    \tempoQuiSedesB c2 fis,\fermata
+    \tempoMiserere R1*3
+    e'4 e cis2 %85
+    c4 h8 a h4 e~
+    e d cis2
+    h h4 h
+    a2 a4 r
+    a a fis2 %90
+    f4 e8 d e4 e'~
+    e d c2
+    h1
+    h2 e4 e
+    dis2 d4 cis8 h %95
+    cis d e2 d4
+    g,2 d'8 e fis4
+    e1 \noBreak
+    fis\fermata \bar "||"
+    \tempoQuoniam R1*3 %102
+    r2 r4 r8 cis\fE
+    d cis d cis d8. d16 d4
+    r r8 e e2~ %105
+    e e
+    r r4 r8 cis
+    d e d e d8. d16 d4
+    d8 d cis4 cis8 cis cis cis
+    d8. d16 e8 e e e16 e d8 a16 a \noBreak %110
+    h8 cis h4 cis2\fermata \bar "||"
+    \time 2/1 \tempoGloriaAmen \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*5 %116
+    r2 h1 ais2
+    h4 cis d1 cis2
+    h a!4 gis a1
+    gis fis2 h %120
+    ais2. h4 cis2 h4 ais
+    h cis d h e2 d4 cis
+    d e fis g e2 cis
+    d e fis1
+    e d2 a~ %125
+    a gis a4 h cis2~
+    cis h a4 g fis e
+    d2 g a1
+    d,2 r r a'~
+    a fis g a4 h %130
+    a2 e' d e
+    fis e e1
+    R\breve
+    r1 r2 e~
+    e cis fis4 e dis2 %135
+    cis\breve
+    cis1 r
+    r r2 fis~
+    fis d e4 fis g2~
+    g fis4 e d1 %140
+    cis h2. cis8 d
+    e2. d4 cis1~
+    cis2 h ais1
+    h cis2. h4
+    a1 h2. a4 %145
+    g2 g' fis cis
+    d1 cis
+    h4 cis d2 e fis~
+    fis e d e~
+    e d cis1 %150
+    d2 cis h1
+    cis2 d cis1
+    h\breve\fermata \bar "|." %153 finis
+  }
+}
