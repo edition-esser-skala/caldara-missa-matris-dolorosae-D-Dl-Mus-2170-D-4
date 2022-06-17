@@ -207,3 +207,137 @@ GloriaViolaII = {
     h\breve\fermata \bar "|." %153 finis
   }
 }
+
+CredoViolaII = {
+  \relative c' {
+    \clef tenor
+    \key h \minor \time 4/4 \tempoCredo
+    r8 d\fE d4 r8 cis cis4
+    r8 d d4 r8 cis cis4
+    r8 d g,4 r8 ais? ais4
+    r8 d d4 r8 h h4
+    r8 a a4 r8 a a4 %5
+    r8 a a4 r8 a a4
+    r8 a a4 r8 a a4
+    r8 h h4 r8 h h4
+    r8 e e4 r8 ais, ais4
+    r8 h cis4 r8 d d4 %10
+    r8 h h4 r8 cis cis4
+    r8 a fis4 r8 h h4
+    r8 cis cis4 r8 cis cis4
+    r8 d d4 r8 d e4
+    r8 e e4 r8 e e4 %15
+    r8 e e4 r8 e e4
+    r8 e e4 r8 e e4
+    r8 e cis4 r8 cis cis4
+    r8 d d4 r8 cis cis4
+    r8 gis gis gis a4 r %20
+    R1*10 \noBreak %30
+    R1\fermata \bar "||"
+    \time 3/2 \tempoEtIncarnatus \newSpacingSection
+      h2\p h h \noBreak
+    a a h
+    h h h
+    cis! cis cis %35
+    c c c
+    fis, dis' dis
+    cis! cis h
+    h h h
+    d! d d %40
+    a a a
+    cis! cis cis
+    fis, h h
+    c c c
+    h1.\fermata %45
+    a2 a a
+    d d d
+    h! h h
+    e e e \noBreak
+    fis!1.\fermata \bar "||" %50
+    \key g \mixolydian \time 2/1 \tempoCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      d1\fE h \noBreak
+    e2 c d e
+    c d h4 a h g
+    d'2 d, r e'~
+    e d1 cis2 %55
+    d4 c h a g a h g
+    c2 a h e
+    a, d g,1
+    r2 d'1 h2
+    c d h a %60
+    a d h1
+    c h
+    r r2 e~
+    e d1 c2
+    c h a1 %65
+    g r
+    R\breve
+    r1 r2 g
+    a4 h c d e1
+    d c~ %70
+    c2 h r1
+    c a
+    f2 d r d'~
+    d h1 g2
+    e1 r2 e'~ %75
+    e d4 c d2 c
+    h c1 h2
+    e1 d~
+    d2 c1 h4 a \noBreak
+    h\breve\fermata \bar "||" %80
+    \key d \major \time 3/4 \tempoEtResurrexit \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      \override Staff.TimeSignature.style = #'single-digit
+      R2.*49 %129
+    r4 d\fE a %130
+    d e cis
+    fis d a
+    d r r \noBreak
+    R2.
+    \time 4/4 \tempoSimul
+      \revert Staff.TimeSignature.style
+    r4 dis4. dis8 dis dis %135
+    h2 c4 h8. a16
+    g4 e'2 d4
+    c2. h8 a
+    g2 c
+    \time 3/4 \override Staff.TimeSignature.style = #'single-digit
+      fis,2\fermata \tempoEtConglo g4 %140
+    g8 g g g a4
+    a h8 h h h
+    c4 g8 h a4
+    h2 r4
+    R2.*6 %150
+    r4 r h\fE
+    e8. e16 e8 dis h dis
+    e4 dis g~
+    g8 fis e4. d8
+    c4 c cis8 cis %155
+    h2.
+    h2 r4
+    r4 r d
+    e d2
+    d r4 %160
+    r r d
+    e d8 d d4
+    d2 r4
+    r r d,\pE
+    e d2 %165
+    d h'4\fE
+    a a8 a a a
+    cis!8. cis16 cis8 cis cis cis
+    d4 d8 cis h4
+    \tempoCredoAmen cis r r %170
+    h cis2
+    a4 h2
+    a8 a a2
+    a4 a h8 a
+    g4 h cis8 h %175
+    a4 cis d8 cis
+    h2.
+    ais2 cis4
+    h8 h h4 ais
+    h2.\fermata \bar "|." %180 finis
+  }
+}

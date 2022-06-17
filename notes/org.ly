@@ -555,3 +555,394 @@ GloriaBassFigures = \figuremode {
   <6\\>1 <4>2 <_+>
   <[_+]>\breve %153 finis
 }
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoCredo
+    \mvTr h'8\fE-\tuttiE h, r h fis' fis, r fis'
+    h h, r h' ais fis r fis
+    d d, r e' fis fis, r fis'
+    h h, r h' e, e, r e'
+    a a, r a d d, r d' %5
+    a' a, r a d d, r d'
+    a' a, r a' d d, r d
+    h' h, r h' g g, r g'
+    e e, r e' e e, r e'
+    d h fis' fis, h' h, r h %10
+    e e, r e' cis cis, r fis'
+    d d, r dis' e e, r e'
+    a a, r a' a a, r a'
+    h h, r h' h h, r gis'
+    a a, r cis d a r e' %15
+    a a, r a' a a, r gis'
+    a a, r a' gis e r a,
+    e' e, r eis' fis fis, r cis'
+    d d, r h' cis cis, r fis'
+    d h cis cis, fis' fis, r \mvTr fis'\pE-\soloE %20
+    gis a fis gis a gis a fis
+    h, cis d cis d cis d h
+    e d cis fis d h ais fis
+    h cis d e fis e fis fis,
+    h a g fis e' d e a, %25
+    d e fis d g, g' fis d
+    e cis d16 e fis g a8 a, cis a
+    d e fis d g fis g e
+    fis4. e16 d e8 d e cis
+    d e fis g a4 a, \noBreak %30
+    d1\fermata \bar "||"
+    \time 3/2 \tempoEtIncarnatus \newSpacingSection
+      \mvTr dis2\p-\soloE dis dis \noBreak
+    dis dis dis
+    d d d
+    cis! cis cis %35
+    c c c
+    h h h
+    cis! cis dis
+    e e e
+    d! d d %40
+    c? c c
+    ais ais ais
+    h h h
+    a! a a
+    g1.\fermata %45
+    a2 a a
+    b b b
+    gis gis gis
+    a a a \noBreak
+    d,1.\fermata \bar "||" %50
+    \clef "treble_8" \key g \mixolydian \time 2/1 \tempoCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      \mvTr d''1\fE-\tuttiE h \noBreak
+    e2 c d e
+    c d << {
+      g1
+      fis h2 g
+      a h g a %55
+    } \\ {
+      h,4 a h g
+      d'2 d, r e'~
+      e d1 cis2 %55
+    } >>
+    d4 c h a g a h g
+    c2 a h e^\critnote
+    a, d \clef bass g,1
+    fis h2 g
+    a h g a %60
+    fis4 e fis d g2 g,
+    a a'1 g2~
+    g fis g a
+    h1 g2 a
+    fis g d1 %65
+    g,2 \clef treble << {
+      g'' a4 h c d
+      e1 d
+      c2 f1
+    } \\ {
+      r2 r1
+      r2 c, d4 e f g
+      a1 g2
+    } >> \clef "treble_8" g,
+    a4 h c d e2 \clef bass c,
+    d4 e f g a1 %70
+    g \clef treble g'
+    \clef "treble_8" << { e } \\ { c } >> \clef bass f,
+    d h2 g
+    g'1 e
+    c2 a a'1 %75
+    fis\breve
+    \tieDashed g~
+    g~
+    g~ \noBreak
+    g\fermata \tieSolid \bar "||" %80
+    \key d \major \time 3/4 \tempoEtResurrexit \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      \override Staff.TimeSignature.style = #'single-digit
+      \mvTr d4\pE-\solo fis d \noBreak
+    a'8 h a g fis e
+    d4. e8 fis4
+    g8 fis e d cis h
+    a4. h8 cis4 %85
+    d e fis
+    e2.
+    d2 h'4
+    gis e e
+    cis a a' %90
+    e2.
+    a,4\fE cis a
+    d e e,
+    a a8\pE h cis d
+    e4 e8 fis g! a %95
+    h4 h,8 cis d e
+    fis4 fis8 gis a h
+    cis2 cis,4
+    fis fis, fis'
+    e e, e' %100
+    d d, d'
+    cis2.
+    fis4 gis a~
+    a gis8 fis gis4
+    a8 gis fis e d cis %105
+    h2.
+    cis4 eis cis
+    fis ais fis
+    h,2.
+    g %110
+    fis2 fis4\fE
+    h h'8\pE a! g fis
+    g4 a8 g fis e
+    fis4 g8 fis e d
+    e4 fis8 e d cis %115
+    d e fis4 fis,
+    h d h
+    e g e
+    a, cis a
+    d fis d %120
+    a' a, cis
+    d g8 a h4
+    a4. h8 cis4
+    h2 e,4
+    a a,8 h cis a %125
+    h4 cis a
+    d g2
+    a4 d,8 e fis4
+    g a a,
+    d \mvTr d\fE-\tutti cis %130
+    d a cis
+    d a cis
+    d2 d,4 \noBreak
+    R2.
+    \time 4/4 \tempoSimul
+      \revert Staff.TimeSignature.style
+      r4 h'4. h8 h h %135
+    e2 a,4 h
+    c2 gis
+    a h
+    c1
+    \time 3/4 \override Staff.TimeSignature.style = #'single-digit
+      h2\fermata \tempoEtConglo g'4 %140
+    e c a
+    d h e
+    c h8 g d' d,
+    g2 \mvTr g'4\pE-\solo
+    c h g %145
+    c h a
+    g a h
+    c h a
+    g2 fis4
+    g g,8 a h c %150
+    d2 \mvTr dis4\fE-\tutti
+    e4. h8 dis h
+    e4 h r
+    e4. d!8 c4~
+    c8 h a4 ais %155
+    h2.
+    e4. e8 d! c
+    h a g4 g'~
+    g8 g fis2
+    g4 fis8 e d c %160
+    h a g4 g'~
+    g8 g fis2
+    g8 a h c h8\p a
+    g4 g, g~
+    g fis2 %165
+    g g4\f
+    d'2 d4
+    a2 ais4
+    h h'8 a! g4
+    \tempoCredoAmen fis r8 h g h %170
+    e,4 r8 a fis a
+    d,4 r8 g e g
+    cis, d a'4 a,
+    d r8 d h d
+    g,4 r8 e' cis e %175
+    a,4 r8 fis' d fis
+    h,4 r8 g' e g
+    cis,4 r8 ais' fis ais
+    h e, fis4 fis,
+    h2.\fermata \bar "|." %180 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  r2 <_+>
+  r <6>8 <[_+]>4 <_+>8
+  <6>2 <_+>4. q8
+  r1
+  r %5
+  <4>4 <3>2.
+  r1
+  r
+  r2 <6 4+ 2>4. <\t \t \t>8
+  <6>4 <4>8 <_+> r2 %10
+  <_+> <5+>
+  <5>4. <6>8 <_+>4. q8
+  r2 <6>
+  <5> <6\\>4. <[6]>8
+  r4. <6>4. <[4]>8 <_+> %15
+  r2.. <6>8
+  r2 <6>8 <_+>4.
+  <[_+]> <6 _+>2 <6 [_!]>8
+  r4. <6\\>8 <[5+] _+>2
+  r8 \bo <[6\\]> \bc <[5+] _+>2. %20
+  <6>8 <[6]> <6> <\t> r4 \bo <[6]>8 <_+>
+  r \bc <[6\\]> <6>8 <6\\> <6>2
+  <_+>8 <\t> <6\\> <\t> <6>4 <6>8 <[_+]>
+  r \bo <[6\\]> \bc <[6]>4 <6 [4]> <5 _+>
+  r <5>8 <[6]> <7>4 <6> %25
+  r <6>2 q4
+  r8 q \bo <[4]> \bc <[6]> <6 4>4 <6>
+  r <6>2.
+  q2 <5>
+  r8 <6> q4 <6 4> <5 3> %30
+  r1
+  <6>1.
+  <7!>1 <6>2
+  <6 4+ 2>1.
+  <6> %35
+  <6\\>
+  <_+>
+  <7>2 <6!> <6>
+  r1.
+  <4+ _!> %40
+  <6>
+  <7! [_+]>
+  <5>
+  <6 4+ _!>
+  <6> %45
+  <6! _+>
+  <5!>
+  <[7! _!]>
+  <4>1 <_+>2
+  <[_+]>1. %50
+  r\breve
+  r
+  r
+  r
+  r %55
+  <5 [_+]>2 <5+>1 <6>2
+  r1 <7>2 <5>
+  <7> <_+>1.
+  <6>1 q2 q
+  <6\\ 5> <[5+] 3> <6 5> <_+> %60
+  <6>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff <9>2 <8>
+  <7> <6\\> <7 2> <6 3>
+  <2> <6> <5> <7 3>
+  <5+ 4> <\t 3> <6 5>1
+  q <4>2 <_+> %65
+  r\breve
+  r
+  r1. <5>2
+  q1. q2
+  <4> <6> <5>1 %70
+  <6 4>2 <5 3>1.
+  r1 <5>
+  r <6>
+  <5> q
+  q\breve %75
+  <7>2 <6>1 <5>2
+  <5 3> <6 4> <5 \t> <\t 3>
+  <6 5> <\t 4> <5 \t> <\t 3>
+  <6 5> <\t 4> <\t \t> <5 3>4 <4 2>
+  <5 3>\breve %80
+  r2.
+  r
+  r4. \bo <[6!]>8 \bc <[6]>4
+  r2.
+  r4. \bo <[6]>8 \bc q4 %85
+  r2 <6>4
+  <7> <6>2
+  r2.
+  <6>4 <_+>2
+  <6>2. %90
+  <4>2 <_+>4
+  <[9]> <6>2
+  <[6 5]>4 <_+>2
+  r2.
+  <5 4>4 <\t _!> <6> %95
+  <5>2 <6>4
+  <5>2 <6>4
+  <6 4> <5+ _+> <\t \t>
+  r2 <6>4
+  <7 _+>2 <6 \t>4 %100
+  <7>2 <6>4
+  <5+ _+>2.
+  r
+  <4>4 <6>2
+  r4 <6> <\t> %105
+  r2.
+  <[5+] _+>4 <6 [_+]> \bo <[5+] _+>
+  \bc <[_+]> <6> <_+>
+  \bo <[9]>2 \bc <[8]>4
+  <7>2 <6>4 %110
+  <_+>2.
+  r2 <5>4
+  <[6 5]>2 <5>4
+  <[6 5]>2 <5>4
+  <[6 5]> <_+>2 %115
+  <6>8 <[_+]> <_+>2
+  r4 <6>2
+  r4 <6>2
+  r4 <5>2
+  r2. %120
+  r2 <6>4
+  r <6> <\t>
+  r4. <6\\>8 <6>4
+  <7> <6\\> <7 _+>
+  r2 <6>4 %125
+  <6!> <5>2
+  r2.
+  r2 \bo <[6]>4
+  <5>8 \bc <[6]> r2
+  r <6>4 %130
+  r2 <6>4
+  r2 <6>4
+  r2.
+  r
+  r4 <7 _+>2. %135
+  <9>4 <8> <6! 5 [_!]> <6 5!>
+  <9> <8> <6 4!> <5 3>
+  <[9] _!> <6! \t>8 <5 \t> \bo <9! [5+] _+>4 <8 [\t] \t>
+  <7> <6>8 <5> <6>2
+  <_+>2 <[5!]>4 %140
+  r2 <_!>4
+  r2.
+  r4 <[6]>2
+  r2.
+  <5>4 <6>2 %145
+  <5>4 <6> <6 [_!]>
+  r2 <6>4
+  r q <6 [_!]>
+  r2 <6>4
+  r2. %150
+  r2 <6>4
+  r4. <_+>4 q8
+  r4 q2
+  r2 <5>4
+  r <_!> <7 _+> %155
+  <6 4> <5 _+>2
+  r2 \bo <6 [4]>8 \bc <\t [\t]>
+  <6>2.
+  <4! 2>4 <6 [5!]>2
+  \bo <[5 3]>2 \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff <6> %160
+  q2.
+  <6 4! 2>4 <6 [5!]>2
+  r4 <6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  r2.
+  <4! 2>4 <6 [5!]>2 %165
+  r2.
+  r
+  <_+>2 <6>4
+  r2 <6>4
+  <_+>2 <5>8 <\t> %170
+  r2 <5>8 <\t>
+  r2 <5>8 <\t>
+  <[6 5]>4 <4> <3>
+  r2 <5>8 <\t>
+  r2 <5>8 <\t> %175
+  r2 <5>8 <\t>
+  r2 <5>8 <\t>
+  <[6\\]>4. <6>8 <[_+]>4
+  r <4> <_+>
+  <[_+]>2. %180 finins
+}

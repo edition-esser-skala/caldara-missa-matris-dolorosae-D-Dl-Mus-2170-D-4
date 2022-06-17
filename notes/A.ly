@@ -417,3 +417,262 @@ GloriaAltoLyrics = \lyricmode {
   men, a --
   men. %153 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoCredo
+    r2 \mvTr fis\fE^\tuttiE
+    d cis
+    h8 h g' g fis4 fis
+    r8 fis fis fis g4 g
+    r8 e e e fis4 fis8 fis %5
+    e2 fis4 r
+    r2 d8 d d d16 d
+    d8. e16 fis4 g8 g g g16 g
+    g8. g16 g4 fis8 fis fis fis
+    fis4. fis8 fis4 r %10
+    r e4. e8 cis cis
+    fis fis16 fis fis8 fis e4 e
+    r2 r8 fis fis fis
+    fis4 fis r8 h h h
+    a4 e fis8 e e8. e16 %15
+    e4 r a8 a h h
+    a a a a h h16 h a8. a16
+    gis4 gis8 gis16 gis a8 a a a16 a
+    fis8 fis16 fis gis8 gis eis eis16 eis fis8 fis
+    fis gis eis4 fis r %20
+    R1*3
+    r2 r4 r8 \mvTr fis\pE^\solo
+    d4 h'8 a g4. g8 %25
+    fis4. a8 h4 a
+    g g8 fis fis4 e
+    r a h4. a16[ g]
+    a8[ fis d fis] g4. fis16[ e]
+    fis8[ cis] d h' fis4( e) \noBreak %30
+    d1\fermata \bar "||"
+    \time 3/2 \tempoEtIncarnatus \newSpacingSection
+      R1.*13 %44
+    R1.\fermata %45
+    R1.*4 \noBreak
+    R1.\fermata \bar "||" %50
+    \key g \mixolydian \time 2/1 \tempoCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*2
+    r1 \mvTr g\fE^\tuttiE
+    fis h2 g
+    a h g a %55
+    fis4 e fis d g2 g,
+    r a'1 g2~
+    g fis g fis4( e)
+    d e fis d g2 e
+    fis1 e %60
+    r2 a1 g2~
+    g fis g1
+    a g
+    fis e
+    d\breve %65
+    d1 r
+    r2 c d4 e f g
+    a1 g2. f4
+    e2. f4 g1~
+    g2 f e d4 c %70
+    g'1 g
+    e c2 a
+    R\breve
+    r2 g'1 e2~
+    e c a1 %75
+    r2 a'2. g4 fis e
+    d2 e d1~
+    d2 c1 h2
+    e1. d4( c) \noBreak
+    d\breve\fermata \bar "||" %80
+    \key d \major \time 3/4 \tempoEtResurrexit \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      \override Staff.TimeSignature.style = #'single-digit
+      R2.*36 %116
+    r4 \mvTr h'8([\pE^\soloE a!)] g([ fis)]
+    g4. fis8 g4
+    a g2
+    fis4. fis8 fis4 %120
+    r a8([ g)] fis([ e)]
+    fis4 g8([ fis)] e[ d]
+    e4 a8[ gis] a4~
+    a8[ h] gis2
+    a4 a a %125
+    g!4. fis8 g a
+    fis4 h g
+    e fis8[ g] a4
+    h e,2
+    d4 \mvTr fis\fE^\tuttiE e %130
+    fis e a,
+    fis' e a,
+    fis'4. fis8 fis4 \noBreak
+    R2.
+    \time 4/4 \tempoSimul
+      \revert Staff.TimeSignature.style
+      r4 fis4. fis8 fis4~ %135
+    fis e2 d4~
+    d c8[ d] e2~
+    e4 f8[ e] dis2
+    e1
+    \time 3/4 \override Staff.TimeSignature.style = #'single-digit
+      dis2\fermata \tempoEtConglo d4 %140
+    e8 e e e e4
+    fis fis8 fis g g
+    g4 g8 g fis4
+    g2 r4
+    R2.*6 %150
+    r4 r \mvTr fis\fE^\tuttiE
+    g8. g16 g8 fis fis fis
+    g4 fis h~
+    h8 a g4. fis8
+    e4 e e~ %155
+    e8 e dis2
+    e4 g2
+    h2.
+    a
+    g2 g8 a %160
+    h2 h4
+    a2.
+    g2 h,8\pE c
+    d2.
+    c %165
+    h2 d4\fE
+    d d8 d d d
+    e8. e16 e8 e fis fis
+    fis4 fis8 fis e4
+    \tempoCredoAmen fis fis g~ %170
+    g e fis~
+    fis d e~
+    e8 d d4( cis)
+    d r d~
+    d e2~ %175
+    e4 fis2~
+    fis4 g2
+    e \once \tieDashed fis4~
+    fis8 g fis2
+    fis2.\fermata \bar "|." %180 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa --
+  trem, Pa --
+  trem o -- mni -- po -- ten -- tem,
+  fa -- cto -- rem coe -- li,
+  fa -- cto -- rem coe -- li et %5
+  ter -- rae,
+  vi -- si -- bi -- li -- um
+  o -- mni -- um, vi -- si -- bi -- li -- um
+  o -- mni -- um et in -- vi -- si --
+  bi -- li -- um. %10
+  Et in u -- num
+  Do -- mi -- num Je -- sum Chri -- stum,
+  Fi -- li -- um
+  De -- i, Fi -- li -- um
+  De -- i u -- ni -- ge -- ni -- %15
+  tum, et ex Pa -- tre
+  na -- tum an -- te o -- mni -- a sae -- cu --
+  la, De -- um de De -- o, lu -- men de
+  lu -- mi -- ne, De -- um ve -- rum de De -- o,
+  De -- o ve -- ro. %20
+
+  Qui %24
+  pro -- pter nos ho -- mi -- %25
+  nes et pro -- pter
+  no -- stram sa -- lu -- tem
+  de -- scen -- _
+  _ _ _
+  _ dit de coe -- %30
+  lis.
+
+  Cru -- %53
+  i -- fi -- xus
+  e -- ti -- am pro %55
+  no -- _ _ _ _ bis
+  sub Pon --
+  ti -- o Pi --
+  la -- _ _ _ _ _
+  _ to, %60
+  sub Pon --
+  ti -- o
+  Pi -- la --
+  _ _
+  _ %65
+  to,
+  pas -- _ _ _ _
+  _ _ _
+  _ _ _
+  _ _ _ _ %70
+  sus et
+  se -- pul -- tus,
+
+  et se --
+  pul -- tus, %75
+  et se -- _ _
+  _ _ pul --
+  _ _
+  _ tus __
+  est. %80
+
+  Et __ in __ %117
+  Spi -- ri -- tum
+  San -- ctum,
+  Do -- mi -- num %120
+  et __ vi --
+  vi -- fi -- can --
+  _ _ _
+  _
+  tem, qui ex %125
+  Pa -- tre Fi -- li --
+  o -- que pro --
+  ce -- _ _
+  _ _
+  dit. Qui cum %130
+  Pa -- tre, cum
+  Pa -- tre et
+  Fi -- li -- o
+
+  si -- mul ad -- %135
+  _ _
+  _ o --
+  ra -- _
+  _
+  tur et %140
+  con -- glo -- ri -- fi -- ca --
+  tur: qui lo -- cu -- tus
+  est per Pro -- phe --
+  tas.
+
+  Con -- %151
+  fi -- te -- or u -- num ba --
+  ptis -- ma in __
+  re -- mis -- si --
+  o -- nem pec -- %155
+  ca -- to --
+  rum. Et
+  ex --
+  pe --
+  cto re -- sur -- %160
+  re -- cti --
+  o --
+  nem mor -- tu --
+  o --
+  _ %165
+  rum, et
+  vi -- tam ven -- tu -- ri
+  sae -- cu -- li, ven -- tu -- ri
+  sae -- cu -- li, a --
+  men, a -- _ %170
+  _ _
+  _ _
+  men, a --
+  men, a --
+  _ %175
+  _
+  _
+  _ _
+  men, a --
+  men. %180 finis
+}

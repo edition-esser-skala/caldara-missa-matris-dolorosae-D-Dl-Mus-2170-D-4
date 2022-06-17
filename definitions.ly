@@ -8,6 +8,7 @@
 
 vv = \markup \remark "Vv."
 vvE = \markup \remarkE "Vv."
+moderato = \markup \remark "moderato"
 
 
 tempoKyrie = \tempoMarkup "Grave"
@@ -24,6 +25,13 @@ tempoGloria = \tempoMarkup "Allegro"
   tempoMiserere = \tempoMarkup "Andante"
   tempoQuoniam = \tempoMarkup "Allegro"
   tempoGloriaAmen = \tempoMarkup "Allabreve"
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoCrucifixus = \tempoMarkup "[Allabreve]"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoSimul = \tempoMarkup "Adagio"
+  tempoEtConglo = \tempoMarkup "Allegro"
+  tempoCredoAmen = \tempoMarkup "Presto"
 
 
 \include "notes/ob1.ly"
