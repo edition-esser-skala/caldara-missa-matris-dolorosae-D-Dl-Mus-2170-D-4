@@ -677,3 +677,150 @@ CredoSopranoLyrics = \lyricmode {
   _ men, a --
   men. %180 finis
 }
+
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoSanctus
+    r4 \mvTr fis'(\fE^\tuttiE d) ais
+    h1~
+    h2 a~
+    a2. cis4~ \noBreak
+    cis h2 ais4 %5
+    \time 3/4 \tempoDominus
+      \override Staff.TimeSignature.style = #'single-digit
+      R2.*4
+    \mvTr a4\fE^\tuttiE a a %10
+    a2.~
+    a8[ h a g fis e]
+    d4. e8 fis4
+    g8[ a h cis! d e]
+    fis2. %15
+    e2 e4
+    cis a r
+    fis' d h
+    r8 h[ e d e d]
+    cis4. cis8 d4~ %20
+    d cis2
+    d r4
+    R2.
+    r4 r d
+    cis8 d e4 cis %25
+    d8[ fis e d cis a]
+    h[ cis d h e d]
+    cis4. h8 a4
+    r e' e
+    d h cis %30
+    d8[ cis] h2
+    a d4
+    e cis d
+    h cis a
+    h2 a4~ %35
+    a h8[ cis] d4~
+    d cis2 \noBreak
+    d2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus
+      \revert Staff.TimeSignature.style
+      \mvTr h2\pE^\solo ais \noBreak
+    d cis4. fis8 %40
+    dis4. cis16 dis e8([ h)] e d?
+    cis4. h16[ cis] d4. cis16[ d]
+    e4. d16[ e] fis8[ e d cis]
+    h2 cis8[ h a g]
+    fis2~ \tempoBenedictusB fis8[ e16 d] e8. e16 \noBreak %45
+    fis1\fermata \bar "||"
+    \time 4/4 \tempoOsanna
+      r4 \mvTr h\fE^\tuttiE cis h8 ais \noBreak
+    h cis d e fis[ e d cis]
+    h4 a!8[ gis] a4 h8[ cis]
+    d4 cis8[ h] ais4 h8[ cis] %50
+    h2 a8[ h cis dis]
+    eis4 fis8[ gis] cis,4 h8[ a]
+    gis2 a
+    gis fis4 fis'8 fis
+    d4 h r e8 e %55
+    cis4 a r fis
+    g fis8 e fis g a h
+    cis[ d] e4 d e
+    a,2 a4 h8 h
+    a2 a4 r %60
+    r h8 h h h cis cis
+    ais4 ais r2
+    R1
+    r4 g a g8 fis
+    g a h cis! d2 %65
+    cis8[ h ais gis] ais2
+    h8[ cis d e] fis fis fis e
+    d2( cis)
+    h1\fermata \bar "|." %69 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san --
+  _
+  _
+  _ ctus. %5
+
+  Ple -- ni sunt %10
+  coe --
+
+  _ _ _
+  _
+  _ %15
+  li et
+  ter -- ra,
+  et ter -- ra
+  glo --
+  _ ri -- a __ %20
+  tu --
+  a.
+
+  O --
+  san -- na in ex -- %25
+  cel --
+  _
+  _ _ sis,
+  in ex --
+  cel -- _ _ %30
+  _ _
+  sis, in
+  ex -- cel -- _
+  _ _ _
+  _ _ %35
+  _ _
+  _
+  sis.
+  Be -- ne --
+  di -- ctus, qui %40
+  ve -- nit in no -- mi -- ne
+  Do -- _ _ _
+  _ _ _
+  _ _
+  _ _ mi -- %45
+  ni.
+  O -- san -- na, o --
+  san -- na in ex -- cel --
+  _ _ _ _
+  _ _ _ _ %50
+  _ _
+  _ _ _ _
+  _ _
+  _ sis, in ex --
+  cel -- sis, in ex -- %55
+  cel -- sis, o --
+  san -- na, o -- san -- na in ex --
+  cel -- _ _ _
+  _ sis, in ex --
+  cel -- sis, %60
+  in ex -- cel -- sis, in ex --
+  cel -- sis,
+
+  o -- san -- na, o --
+  san -- na in ex -- cel -- %65
+  _ _
+  _ _ sis, in ex --
+  cel --
+  sis. %69 finis
+}

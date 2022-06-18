@@ -946,3 +946,180 @@ CredoBassFigures = \figuremode {
   r <4> <_+>
   <[_+]>2. %180 finins
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef treble
+    \key h \minor \time 4/4 \tempoSanctus
+    r4 \mvTr fis''\fE-\tuttiE d ais
+    h \clef bass h, g dis
+    e2 cis
+    d a4 ais \noBreak
+    h2 fis' %5
+    \time 3/4 \tempoDominus
+      \override Staff.TimeSignature.style = #'single-digit
+      \mvTr h,2.\pE-\solo \noBreak
+    g4 a g
+    fis2 h4
+    g a2
+    d r4 %10
+    \mvTr d2.~\fE-\tutti
+    d~
+    d8 e d c h a
+    g2.
+    d'8 e fis g a h %15
+    cis! h a4 r
+    a fis d
+    r h' g
+    e e2
+    a8 g a g fis4 %20
+    g a a,
+    d2 \clef treble << {
+      r4
+      R2.
+      r4 r d''
+      cis8 d e4 cis %25
+      d8[ fis e d]
+    } \\ {
+      a4
+      gis8 a h4 gis
+      a8 h a g fis d
+      e fis g e a g %25
+      fis2
+    } >> \clef bass a,4
+    gis8 a h4 gis
+    a8 h a g fis d
+    e fis g e a g
+    fis4 gis a~ %30
+    a2 gis4
+    a a h
+    g! a fis
+    g e fis
+    d e cis %35
+    d2.
+    a \noBreak
+    d\fermata \bar "||"
+    \time 4/4 \tempoBenedictus
+      \revert Staff.TimeSignature.style
+      \mvTr h8\pE-\solo cis d e fis cis fis e \noBreak
+    d cis h16 cis d e fis4 fis, %40
+    h4. h'8 gis2
+    a8 e a g fis e16 fis g4~
+    g8 fis16 g a4. ais8 h a?
+    g fis e fis16 g a8 g fis e
+    d c h a \tempoBenedictusB g2 \noBreak %45
+    fis1\fermata \bar "||"
+    \clef treble \time 4/4 \tempoOsanna
+      r4 \mvTr h''\fE-\tuttiE cis h8 ais
+    << {
+      h cis d e fis e d cis
+      h4 a!8 gis a4 h8 cis
+      d4
+    } \\ {
+      r2 r4 fis,
+      gis fis8 eis fis4 gis8 a
+      h[_\critnote a]
+    } >> \clef "treble_8" h,4 cis h8 ais %50
+    h cis d e fis4 \clef bass fis,
+    gis fis8 eis fis gis a h
+    cis h a gis fis e d cis
+    h4 cis fis, r
+    r h' g e %55
+    r a fis d
+    \clef treble << {
+      g' fis8 e fis g a h
+      cis[ d]
+    } \\ {
+      e,4 d8 cis d e fis gis
+      a4_\critnote
+    } >> \clef bass a, h a8 gis
+    a a h cis d4 g,
+    a a, d r %60
+    r h' g e
+    fis fis, r << {
+      d''
+      e d8 cis d cis h a
+    } \\ {
+      h4
+      cis h8 ais h a? g fis
+    } >>
+    e d c h a4 h
+    e d8 cis h cis d e %65
+    fis2~ fis8 e d cis
+    h2 ais
+    h fis
+    h1\fermata \bar "|." %69 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r4 <_+> <6> <[6]>
+  <9> <8> <6 [5]>2
+  <9>4 <8> <[4]> <6>
+  <9> <8> <6 4> <5 _+> %5
+  r2.
+  <6>4 <5 3> <\t \t>
+  <[6]>2.
+  <6>
+  r %10
+  r
+  r
+  r2 <5>4
+  q2.
+  <5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %15
+  <6>2.
+  r4 <6>2
+  r2.
+  r
+  r2 <6>4 %20
+  <[6 5]> <5 3>2
+  r2.
+  r
+  r
+  r %25
+  r2 <5>4
+  <6> <[6\\]> <6>
+  r2 <6>4
+  q8 q q2
+  <6>4 q2 %30
+  <4 2>2 <6>4
+  r2.
+  <6>2 q4
+  r q2
+  q4 <5> <6> %35
+  r2.
+  <4>4 <3>2
+  r2.
+  r2 <_+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <6>8 <\t>4. <_+>2 %40
+  <[_+]> <6>
+  <5>4. <\t>8 <6>4 <5>
+  <6> <5> \bo <[6]>8 \bc <[\t]>4.
+  <5>2. q4
+  r2 <7>4 <6> %45
+  <_+>1
+  r
+  r
+  r
+  r4 <5> <6\\>4. <[6]>8 %50
+  r2 <_!>4 <\t>
+  <6\\ 5>1
+  <5+ _+>4. \bassFigureExtendersOn q8 <5 3>4. q8 \bassFigureExtendersOff
+  <6\\ 5>4 <5+ _+>2.
+  r2 <6> %55
+  r q
+  r1
+  r4 <5> q \bo <[\tllur]>8 \bc <[6]>
+  <5 3\!>4 \bassFigureExtendersOn q8 q \bassFigureExtendersOff r2
+  <4>4 <3>2. %60
+  r2 <5>4 <[6]>
+  <_+>1
+  r
+  <5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 [_!]>4 <6 4>8 <5 _+>
+  <5>4 <6 4+>8 <6+ 3> <5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %65
+  <5 _+>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <5>2 <6 5>
+  r <4>4 <_+>
+  <[_+]>1 %69 finis
+}

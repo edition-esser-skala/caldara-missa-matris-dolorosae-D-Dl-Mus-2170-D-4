@@ -439,3 +439,78 @@ CredoCello = {
     h2.\fermata \bar "|." %180 finis
   }
 }
+
+SanctusCello = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoSanctus
+    R1
+    r4 h'\fE g dis
+    e2 cis
+    d a4 ais \noBreak
+    h2 fis' %5
+    \time 3/4 \tempoDominus
+      \override Staff.TimeSignature.style = #'single-digit
+      h,2.\pE \noBreak
+    g4 a g
+    fis2 h4
+    g a2
+    d r4 %10
+    d2.~\fE
+    d~
+    d8 e d c h a
+    g2.
+    d'8 e fis g a h %15
+    cis! h a4 r
+    a fis d
+    r h' g
+    e e2
+    a8 g a g fis4 %20
+    g a a,
+    d2 r4
+    R2.*3 %25
+    r4 r a'
+    gis8 a h4 gis
+    a8 h a g fis d
+    e fis g e a g
+    fis4 gis a~ %30
+    a2 gis4
+    a a h
+    g! a fis
+    g e fis
+    d e cis %35
+    d2.
+    a \noBreak
+    d\fermata \bar "||"
+    \time 4/4 \tempoBenedictus
+      \revert Staff.TimeSignature.style
+      h8\pE cis d e fis cis fis e \noBreak
+    d cis h16 cis d e fis4 fis, %40
+    h4. h'8 gis2
+    a8 e a g fis e16 fis g4~
+    g8 fis16 g a4. ais8 h a?
+    g fis e fis16 g a8 g fis e
+    d c h a \tempoBenedictusB g2 \noBreak %45
+    fis1\fermata \bar "||"
+    \time 4/4 \tempoOsanna R1*4 %50
+    r2 r4 fis'\fE
+    gis fis8 eis fis gis a h
+    cis h a gis fis e d cis
+    h4 cis fis, r
+    r h' g e %55
+    r a fis d
+    R1
+    r4 a' h a8 gis
+    a a h cis d4 g,
+    a a, d r %60
+    r h' g e
+    fis fis, r h'
+    cis h8 ais h a? g fis
+    e d c h a4 h
+    e d8 cis h cis d e %65
+    fis2~ fis8 e d cis
+    h2 ais
+    h fis
+    h1\fermata \bar "|." %69 finis
+  }
+}

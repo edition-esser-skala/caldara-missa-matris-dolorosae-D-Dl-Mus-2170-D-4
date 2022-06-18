@@ -341,3 +341,74 @@ CredoViolaI = {
     fis2.\fermata \bar "|." %180 finis
   }
 }
+
+SanctusViolaI = {
+  \relative c' {
+    \clef alto
+    \key h \minor \time 4/4 \tempoSanctus
+    R1
+    r4 fis\fE g fis~
+    fis e4. d8 e4~
+    e d2 cis4 \noBreak
+    d2. cis4 %5
+    \time 3/4 \tempoDominus
+      \override Staff.TimeSignature.style = #'single-digit
+      R2.*5 %10
+    fis4\fE fis fis
+    fis2.~
+    fis8 g fis e d c
+    h c d e fis g
+    a2. %15
+    a2 r4
+    r a fis
+    d r h'
+    g e h'
+    a4. a8 a4 %20
+    h a2
+    a a4
+    gis8 a h4 gis
+    a8 h a g fis d
+    e fis g e a g %25
+    fis2 e4
+    r h' h
+    a e fis
+    g2 a4~
+    a h a %30
+    fis2 gis4
+    e2 r4
+    r r a
+    h g a
+    fis g e %35
+    fis4. g8 a4
+    a8 a a2 \noBreak
+    a2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus
+      \revert Staff.TimeSignature.style
+      R1*6 \noBreak %44
+    << { \oneVoice R1 } \\ { s2 \tempoBenedictusB s } >> %45
+    R1\fermata \bar "||"
+    \time 4/4 \tempoOsanna R1 \noBreak
+    r2 r4 fis\fE
+    gis fis8 eis fis fis gis a
+    h a g fis e4 d8 cis %50
+    d e fis gis a2
+    gis fis
+    cis1
+    d4 cis cis r
+    r fis8 fis g4 g %55
+    r e8 e fis fis d4
+    e d8 cis d e fis gis
+    a4. g8 fis4 gis
+    e2 fis8 fis g^\critnote g
+    e2 fis4 fis8 fis %60
+    d4 h r g'8 g
+    fis4 fis r2
+    R1
+    r4 e fis e8 dis
+    e fis gis ais h2 %65
+    ais8 gis fis eis fis2~
+    fis fis
+    fis4 fis fis2
+    fis1\fermata \bar "|." %69 finis
+  }
+}
