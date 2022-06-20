@@ -824,3 +824,113 @@ SanctusSopranoLyrics = \lyricmode {
   cel --
   sis. %69 finis
 }
+
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/2 \autoBeamOff \tempoAgnus
+    r2 \mvTr fis'\pE^\soloE h,
+    c h fis'4( h,)
+    c2 h e~
+    e d cis
+    d1. %5
+    cis
+    R1.*9 %15
+    r2 \mvTr cis\fE^\tuttiE cis
+    cis cis cis
+    h h1
+    h2 h h
+    a1. %20
+    a
+    R1.*6 %27
+    r2 \mvTr a\fE^\tuttiE a
+    ais ais ais
+    h ais r4 cis %30
+    d2 cis r4 cis
+    d1 cis2~
+    cis h1 \noBreak
+    ais1.\fermata \bar "||"
+    \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*4 %38
+    r1 h
+    h fis'2 e %40
+    d cis d1
+    e2 fis h, e~
+    e d cis1~
+    cis cis
+    r h2 h %45
+    h4( a) g( fis) e2. fis8[ g]
+    a4 h cis d e1
+    a,2 a a1
+    a a
+    a d2 c %50
+    h a h cis4 d
+    e2 d1 cis2~
+    cis4 h cis2 h ais
+    h1 ais
+    R\breve %55
+    r1 h2 h
+    h4( a) g( fis) e2 e'~
+    e d1 cis4 h
+    ais2 h1 ais4 gis?
+    ais1 h %60
+    R\breve
+    h1 h
+    g'2 fis e dis
+    e1.( dis4 cis)
+    dis\breve\fermata \bar "|." %65 finis
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui __
+  tol -- lis pec --
+  ca -- ta
+  mun -- %5
+  di:
+
+  A -- gnus %16
+  De -- i, qui
+  tol -- lis
+  pec -- ca -- ta
+  mun -- %20
+  di:
+
+  A -- gnus %28
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta, pec --
+  ca -- ta __
+  mun --
+  di:
+
+  Do -- %39
+  na, do -- na %40
+  no -- bis pa --
+  _ _ _ _
+  _ _
+  cem,
+  do -- na %45
+  no -- bis __ pa -- _
+  _ _ _ _ _
+  _ cem, pa --
+  cem, do --
+  na, do -- na %50
+  no -- bis pa -- _ _
+  _ _ _
+  _ _ _ cem,
+  pa -- cem,
+  %55
+  do -- na
+  no -- bis __ pa -- _
+  _ _ _
+  _ _ _ _
+  _ cem, %60
+
+  do -- na,
+  do -- na no -- bis
+  pa --
+  cem. %65 finis
+}

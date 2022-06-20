@@ -514,3 +514,77 @@ SanctusCello = {
     h1\fermata \bar "|." %69 finis
   }
 }
+
+AgnusCello = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 3/2 \tempoAgnus
+    h2\pE r h
+    e d r
+    e d g
+    fis1.
+    h2 eis,1 %5
+    fis1.
+    h,
+    e!
+    eis
+    fis %10
+    h,2 cis1
+    fis, a2\fE
+    h a r
+    h cis a
+    h cis1 %15
+    fis, fis'2
+    e!1.
+    dis
+    d
+    cis %20
+    d1 fis2
+    g fis d\pE
+    cis d fis,
+    g fis r
+    h h h %25
+    a a a
+    d a1
+    d2 d1\fE
+    cis fis2
+    h fis r4 fis %30
+    h2 fis r4 fis
+    h,1 a!2~
+    a g1 \noBreak
+    fis1.\fermata \bar "||"
+    \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve %35
+    fis'1 fis
+    h2 a g fis
+    g1 a2 h
+    e, a1 g4 fis
+    g1 fis %40
+    h2 a! g fis
+    e d e1
+    fis2 h, cis1~
+    cis fis,
+    R\breve %45
+    e'2 e e4 d cis h
+    a2 a' g fis4 e
+    fis2 e4 d a'2 a,
+    d1 d
+    a'2 g fis d %50
+    g fis e d
+    cis d a1
+    ais h2 fis'
+    g1 fis
+    r1 fis2 fis %55
+    fis4 e d cis h2 h'4 a!
+    g fis e d cis1
+    d e~
+    e2 d4 e fis1~
+    fis h,~ %60
+    h\breve~
+    h~
+    h~
+    \once \tieDashed h~
+    h\fermata \bar "|." %65 finis
+  }
+}

@@ -795,3 +795,118 @@ SanctusTenoreLyrics = \lyricmode {
   cel --
   sis. %69 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key h \minor \time 3/2 \autoBeamOff \tempoAgnus
+    R1.*6 %6
+    \mvTr h2(\pE^\soloE fis) a!
+    gis gis1
+    gis2( cis,) cis'
+    a1 a2 %10
+    gis1.
+    fis
+    R1.*3 %15
+    r2 \mvTr fis'\fE^\tuttiE fis
+    fis fis fis
+    h, h1
+    e2 e e
+    e1. %20
+    d
+    R1.*6 %27
+    r2 \mvTr d\fE^\tuttiE d
+    e e cis
+    d cis r4 fis %30
+    fis2 fis r4 ais,
+    h1 cis2~
+    cis d( h) \noBreak
+    cis1.\fermata \bar "||"
+    \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      h1 h \noBreak %35
+    fis'2 e d cis
+    d1 e2 fis
+    h, e1 d2~
+    d cis d e4 fis
+    h,1 ais %40
+    h2 fis g a
+    h4 cis d1 cis4 h
+    ais2 h1 a?2
+    gis1 fis
+    h2 h h4( a) g( fis) %45
+    e fis g a h2 cis4 d
+    e2 d4 cis h a h cis
+    d a d1 cis2
+    d1 r
+    R\breve*2 %51
+    a1 a
+    fis'2 e d cis
+    h1 cis
+    cis2 cis cis4( h) ais( gis?) %55
+    fis2 fis'4 e d1~
+    d e4 d cis h
+    a2 h1 e4 d
+    cis2 d cis1~
+    cis dis %60
+    h h
+    e2 e dis dis
+    e fis h,1~
+    h\breve
+    h\fermata \bar "|." %65 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  Mi -- se -- %7
+  re -- re,
+  mi -- se --
+  re -- re %10
+  no --
+  bis.
+
+  A -- gnus %16
+  De -- i, qui
+  tol -- lis
+  pec -- ca -- ta
+  mun -- %20
+  di:
+
+  A -- gnus %28
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta, pec --
+  ca -- ta __
+  mun --
+  di:
+  Do -- na, %35
+  do -- na no -- bis
+  pa -- _ _
+  _ _ _
+  _ _ _ _
+  _ cem, %40
+  do -- na no -- bis
+  pa -- _ _ _ _
+  _ _ _
+  _ cem,
+  do -- na no -- bis __ %45
+  pa -- _ _ _ _ _ _
+  _ _ _ _ _ _ _
+  _ _ _ _
+  cem,
+
+  do -- na, %52
+  do -- na no -- bis
+  pa -- cem,
+  do -- na no -- bis __ %55
+  pa -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _
+  cem, %60
+  do -- na,
+  do -- na no -- bis
+  pa -- cem, pa --
+
+  cem. %65 finis
+}

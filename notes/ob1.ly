@@ -410,3 +410,60 @@ SanctusOboeI = {
     h1\fermata \bar "|." %69 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/2 \tempoAgnus
+    R1.*11 %11
+    r2 cis''\fE fis,
+    g! fis cis'4 fis,
+    g!2 eis fis~
+    fis eis1 %15
+    fis2 cis cis
+    cis cis cis
+    h h1
+    h2 h h
+    a1. %20
+    a2 a' d,
+    e d r
+    R1.*5 %27
+    r2 a\fE a
+    ais ais ais
+    h ais r4 cis %30
+    d2 cis r4 cis
+    d1 cis2~
+    cis h1 \noBreak
+    ais1.\fermata \bar "||"
+    \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*4 %38
+    r1 h
+    h fis'2 e %40
+    d cis d1
+    e2 fis h, e~
+    e d cis1~
+    cis cis
+    r h2 h %45
+    h4 a g fis e2. fis8 g
+    a4 h cis d e1
+    a,2 a a1
+    a a
+    a d2 c %50
+    h a h cis4 d
+    e2 d1 cis2~
+    cis4 h cis2 h ais
+    h1 ais
+    R\breve %55
+    r1 h2 h
+    h4 a g fis e2 e'~
+    e d1 cis4 h
+    ais2 h1 ais4 gis?
+    ais1 h %60
+    R\breve
+    h1 h
+    g'2 fis e dis
+    e1. dis4 cis
+    dis\breve\fermata \bar "|." %65 finis
+  }
+}

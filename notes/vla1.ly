@@ -412,3 +412,68 @@ SanctusViolaI = {
     fis1\fermata \bar "|." %69 finis
   }
 }
+
+AgnusViolaI = {
+  \relative c' {
+    \clef alto
+    \key h \minor \time 3/2 \tempoAgnus
+    d2\pE r d
+    e fis r
+    e fis e
+    fis fis fis
+    fis gis1 %5
+    cis,1.
+    R1.*5 %11
+    r2 r a'\fE
+    g! a r
+    d, cis cis
+    d cis1 %15
+    cis2 a' a
+    ais ais ais
+    fis fis1
+    gis2 gis gis
+    g1. %20
+    fis1 fis2
+    e fis r
+    R1.*2
+    d2\pE d d %25
+    e e e
+    fis e1
+    d2 fis\fE fis
+    e e fis
+    fis fis r4 ais %30
+    h2 ais r4 fis
+    fis1 fis2~
+    fis fis e \noBreak
+    fis1.\fermata \bar "||"
+    \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*5 %39
+    r1 fis %40
+    fis h2 a!
+    g fis g1
+    fis2. gis4 eis2 fis~
+    fis eis fis fis
+    fis4 e d cis h2 h'4 a %45
+    g1~ g4 fis e d
+    cis d e fis g1
+    fis1 e
+    fis r
+    r d %50
+    d g2 fis
+    e fis fis^\critnote e
+    cis1 d4 e fis2~
+    fis e fis1
+    R\breve %55
+    fis2 fis fis4 e d cis
+    h2 h'1 a4 g
+    fis1 g
+    fis2. g4 fis2 fis
+    fis1 fis %60
+    h2 a! g fis
+    g1 fis
+    h2 a g fis
+    g1. fis4 e
+    fis\breve\fermata \bar "|." %65 finis
+  }
+}

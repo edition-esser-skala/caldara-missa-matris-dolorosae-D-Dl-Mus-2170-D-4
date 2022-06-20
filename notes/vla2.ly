@@ -406,3 +406,71 @@ SanctusViolaII = {
     h1\fermata \bar "|." %69 finis
   }
 }
+
+AgnusViolaII = {
+  \relative c' {
+    \clef tenor
+    \key h \minor \time 3/2 \tempoAgnus
+    h2\pE r h
+    g h r
+    g d' h
+    cis h cis
+    h1. %5
+    fis'
+    R1.*5 %11
+    r2 r fis\fE
+    d fis r
+    r gis, fis-\critnote
+    h gis1 %15
+    a2 fis' fis
+    fis fis fis
+    h, h1
+    e2 e e
+    e1. %20
+    d1 d2
+    g, d' r
+    R1.*2
+    h2\pE h h %25
+    cis cis cis
+    a a1
+    a2 d\fE d
+    e e cis
+    d cis r4 fis %30
+    fis2 fis r4 ais,
+    h1 cis2~
+    cis d h \noBreak
+    cis1.\fermata \bar "||"
+    \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      h1 h \noBreak %35
+    fis'2 e d cis
+    d1 e2 fis
+    h, e1 d2~
+    d cis d e4 fis
+    h,1 ais %40
+    h2 fis g a
+    h4 cis d1 cis4 h
+    ais2 h1 a?2
+    gis1 fis
+    h2 h h4 a g fis %45
+    e fis g a h2 cis4 d
+    e2 d4 cis h a h cis
+    d a d1 cis2
+    d1 r
+    R\breve*2 %51
+    a1 a
+    fis'2 e d cis
+    h1 cis
+    cis2 cis cis4 h ais gis? %55
+    fis2 fis'4 e d1~
+    d e4 d cis h
+    a2 h1 e4 d
+    cis2 d cis1~
+    cis dis %60
+    h h
+    e2 e dis dis
+    e fis h,1~
+    h\breve
+    h\fermata \bar "|." %65 finis
+  }
+}

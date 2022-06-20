@@ -814,3 +814,114 @@ SanctusAltoLyrics = \lyricmode {
   in ex -- cel --
   sis. %69 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/2 \autoBeamOff \tempoAgnus
+    R1.*5 %5
+    \mvTr fis2(\pE^\soloE cis) e
+    dis dis1
+    e2( h) d
+    cis cis gis'~
+    gis cis, fis~ %10
+    fis4 gis eis1
+    fis1.
+    R1.*3 %15
+    r2 \mvTr a\fE^\tuttiE a
+    ais ais ais
+    fis fis1
+    gis2 gis gis
+    g1. %20
+    fis
+    R1.*6 %27
+    r2 \mvTr fis\fE^\tuttiE fis
+    e e fis
+    fis fis r4 ais %30
+    h2 ais r4 fis
+    fis1 fis2~
+    fis fis( e) \noBreak
+    fis1.\fermata \bar "||"
+    \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*5 %39
+    r1 fis %40
+    fis h2 a!
+    g fis g1
+    fis2. gis4 eis2 fis~
+    fis eis fis fis
+    fis4( e) d( cis) h2 h'4 a %45
+    g1~ g4 fis e d
+    cis d e fis g1
+    fis1 e
+    fis r
+    r d %50
+    d g2 fis
+    e fis fis^\critnote e
+    cis1 d4 e fis2~
+    fis e fis1
+    R\breve %55
+    fis2 fis fis4( e) d( cis)
+    h2 h'1 a4 g
+    fis1 g
+    fis2. g4 fis2 fis
+    fis1 fis %60
+    h2 a! g fis
+    g1 fis
+    h2 a g fis
+    g1.( fis4 e)
+    fis\breve\fermata \bar "|." %65 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  Mi -- se -- %6
+  e -- re,
+  mi -- se --
+  re -- re, mi --
+  se -- re -- %10
+  re no --
+  bis.
+
+  A -- gnus %16
+  De -- i, qui
+  tol -- lis
+  pec -- ca -- ta
+  mun -- %20
+  di:
+
+  A -- gnus %28
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta, pec --
+  ca -- ta __
+  mun --
+  di:
+
+  Do -- %40
+  na, do -- na
+  no -- bis pa --
+  _ _ _ _
+  cem, do -- na
+  no -- bis __ pa -- _ _ %45
+  _ _ _ _
+  _ _ _ _ _
+  cem, pa --
+  cem,
+  do -- %50
+  na, do -- na
+  no -- bis pa -- _
+  _ _ _ _
+  _ cem,
+  %55
+  do -- na no -- bis __
+  pa -- _ _ _
+  _ _
+  _ cem, pa -- cem,
+  do -- na, %60
+  do -- na no -- bis
+  pa -- cem,
+  do -- na no -- bis
+  pa --
+  cem. %65 finis
+}
