@@ -15,3 +15,7 @@ sources:
     license: public domain
     principal: true
 imslp: Mass_in_B_minor_'Matris_dolorosae'_(Caldara,_Antonio)
+parts:
+  vla1: Viola I o\\Trombone I
+  vla2: Viola II o\\Trombone II
+  vlc_fag: Violoncello\\Fagotto concertante
